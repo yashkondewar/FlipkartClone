@@ -1,0 +1,365 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300&family=Ubuntu&display=swap");
+
+:root {
+  --main-bg-color: #2874f0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+  border: 0;
+  font-family: Arial, sans-serif;
+}
+.nav {
+  display: none;
+}
+
+/* Start Header Section */
+nav a {
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+nav {
+  background-color: #2874f0;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.flipkart {
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+.H-right {
+  padding-top: 4px;
+}
+.H-right .fas,
+.H-right {
+  color: #fff;
+  font-size: 16px;
+}
+.H-right a,
+button {
+  margin-right: 40px;
+}
+.H-left p {
+  color: #fff;
+  font-style: italic;
+  font-size: 11px;
+}
+.H-left p a,
+.H-left {
+  padding-right: 3px;
+}
+.H-center {
+  padding-right: 50px;
+}
+.header-center .fas {
+  color: #fff;
+}
+.search-box {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: none;
+  width: 550px;
+}
+input {
+  width: 100%;
+  padding-left: 10px;
+}
+.fa-sort-down {
+  padding-left: 50px;
+}
+.login {
+  color: #2874f0;
+  font-weight: bold;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 5px 40px;
+  font-size: 16px;
+  border: 1px solid #dbdbdb;
+}
+/* End Header Section */
+
+/* Start of category-section */
+section {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(221, 220, 220);
+}
+.category-row {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+.category-row img {
+  max-height: 100%;
+  max-width: 100%;
+}
+/* End of category-section */
+
+/* Start of banner section */
+.banner {
+  width: 100%;
+  overflow: hidden;
+}
+.slider {
+  width: 4098;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  animation-name: slide;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+.slider img {
+  width: 100%;
+  color: inherit;
+}
+@keyframes slide {
+  0% {
+    left: 0px;
+  }
+  26.66% {
+    left: 0px;
+  }
+  33.33% {
+    left: -1366px;
+  }
+  60% {
+    left: -1366px;
+  }
+  66.66% {
+    left: -2732px;
+  }
+  93.33% {
+    left: -2732px;
+  }
+  100% {
+    left: -4098px;
+  }
+}
+/* End of banner section */
+
+/* Start Of Differt Brands */
+.card {
+  box-shadow: rgb(177, 174, 174) 0px 3px 1px;
+  padding: 10px 0px;
+  margin: 10px 5px;
+  border-radius: 5px;
+}
+.common-heading {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px 20px;
+  box-shadow: 0 1px 1px 0 rgb(0 0 0 /16%);
+}
+.common-heading-left h1 {
+  font-size: 20px;
+  font-weight: 400;
+  padding: auto;
+}
+.common-heading-left h2 {
+  font-size: 15px;
+  padding: 5px 0px;
+  color: rgb(145, 141, 138);
+  font-weight: 200;
+}
+.common-heading-right button {
+  width: 90px;
+  height: 40px;
+  font-size: 18px;
+  background-color: #2874f0;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.common-row {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 10px 0px;
+}
+.common-col {
+  text-align: center;
+  line-height: 22px;
+}
+.common-col img {
+  width: 69px;
+  height: 100px;
+  transition: 300ms;
+}
+.common-col img:hover {
+  transform: scale(0.9);
+}
+.common-col h3,
+h4,
+h6 {
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+.common-col h3 {
+  margin-top: 10px;
+  font-size: 16px;
+}
+.common-col h4 {
+  color: green;
+  font-size: 14px;
+  font-weight: 300;
+}
+.common-col h6 {
+  color: rgb(161, 161, 161);
+  font-size: 12px;
+  font-weight: 100;
+}
+/* End Of Differt Brands */
+
+/*  Start of Flipkart Policies */
+.main-bottom {
+  width: 100%;
+  text-align: left;
+  margin: 0 auto;
+}
+.bottom-box {
+  color: #565656;
+  background-color: #fff;
+  text-align: left;
+  margin: 0 auto;
+  padding: 25px;
+}
+.stories {
+  color: #848484;
+  font-weight: 600;
+  margin-top: 14px;
+  font-size: 14px;
+  padding: 14px 0;
+}
+.stories a {
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+.brands {
+  color: #565656;
+  margin-left: 3px;
+}
+.Items {
+  margin: 3px 0;
+}
+.Items a {
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+.item-type {
+  color: #848484;
+  text-transform: uppercase;
+  margin-right: 3px;
+  font-size: 14px;
+}
+.single-items {
+  padding: 0 5px 0 0;
+  border-right: 1px solid #333;
+  font-size: 13px;
+}
+.bottom1 h2 {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.bottom1 {
+  padding: 0 25px;
+  color: #878787;
+  background-color: #fff;
+}
+.bottom1 .bottom2 {
+  clear: both;
+  line-height: 16px;
+  font-size: 11px;
+  margin: 30px 0 15px;
+}
+.bottom1 h1 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+/* End of Flipkart Policies */
+
+/* Start of Footer Section  */
+footer {
+  background-color: #172337;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
+  border: none;
+  outline: none;
+}
+.F-row-1 {
+  padding: 40px 60px 40px 60px;
+  border-bottom: 1px solid #686868;
+}
+.F-row-1 {
+  display: flex;
+  justify-content: space-around;
+}
+.F-row-2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.F-heading p {
+  color: #878787;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 9px;
+}
+.F-list-address p,
+.F-list p {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.F-list {
+  display: flex;
+  flex-direction: column;
+}
+.F-list a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.F-list a,
+.F-list p,
+.F-list-address p {
+  color: #fff;
+  font-weight: 400;
+  font-size: 12px;
+}
+.F-row2-column {
+  color: #fff;
+  margin-left: 8px;
+  font-size: 14px;
+}
+.F-column-4 {
+  padding-right: 100px;
+}
+.F-column-5 {
+  border-left: 1px solid #686868;
+  padding-left: 30px;
+}
+.fas {
+  color: #ffe11b;
+  margin-right: 8px;
+}
+/* End of Footer Section  */
