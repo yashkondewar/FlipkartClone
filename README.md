@@ -11,7 +11,7 @@
 
 - 📫 How to reach me **kondewaryash@gmail.com**
 
--Preview this website here [https://yashkondewar.github.io/FlipkartClone.github.io/](https://yashkondewar.github.io/FlipkartClone.github.io/)
+- 👀 Preview this website here [https://yashkondewar.github.io/FlipkartClone.github.io/](https://yashkondewar.github.io/FlipkartClone.github.io/)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
